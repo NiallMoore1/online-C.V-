@@ -139,7 +139,7 @@ header .navbar ul li a.active::before{
 
 .home {
     min-height:100vh;
-    background-image:url("images/hero/5.jpg");
+    background-image:url("images/hero/2.jpg");
     background-size:cover;
     background-position:center;
     padding:15px;
@@ -450,7 +450,7 @@ ul li:hover:nth-child(5) a:before {
 
 */
 
-<!--end Social links-->
+<!--end Social-links-->
 
 <!--End About-Me-->
 
@@ -488,7 +488,7 @@ ul li:hover:nth-child(5) a:before {
 }
 
 .services .service-content .box::before{
-content:;
+content:'';
 height:2px;
 background-color:#febd01;
 position:absolute;
@@ -523,7 +523,7 @@ text-align:center;
 
 .services .service-content .box h5{
     font-size:16px;
-    font: weight 600;
+    font-weight: 600;
     color:#000;
     margin:0;
 }
@@ -536,13 +536,88 @@ text-align:center;
     margin:10px 0 10px;  
 }
 
-
-
-
-
-
-
-
-
-
 <!--End Services-->
+
+<!--Start Skills-->
+
+.skills{
+    padding:100px 15px;
+    background-color:#fff;
+}
+
+.skills .skills-content{
+    flex:0 0 50%;
+    max-width:50%;
+    padding-right:40px;
+}
+
+.skills .img{
+    
+    flex:0 0 50%;
+    max-width:50%;
+}
+
+.align-items-center{
+    align-items:center;
+}
+
+.skills .img img{
+    width:100%;
+    display:block;
+}
+
+.skills .skills-content .section-title p{
+    font-size:15px;
+    font-weight:400;
+    line-height:24px;
+    color:#838383;
+    margin:15px 0 0px; 
+}
+
+.skills .skills-content .skill-box{  
+    flex:0 0 100%;
+    max-width:100%;
+    margin-bottom:30px;
+}
+
+
+.skills .skills-content .skill-box h6{
+font-size:16px;
+font-weight:500;
+color:#000;
+margin:0 0 8px;
+}
+
+.skills .skills-content .skill-box .skill-bar{
+    height:5px;
+    background-color:#eee; 
+    position:relative; 
+}
+
+.skills .skills-content .skill-box .skill-bar .skill-bar-in{
+    background-color:#febd01;
+    position:absolute;
+    left:0;
+    top:0;
+    height:100%; 
+}
+
+.skills .skills-content .skill-box .skill-bar .skill-bar-in span{
+    color:#838383;
+    font-size:16px;
+    font-weight:400;
+    position:absolute;
+    right:0;
+    top:-30px;
+}
+
+
+
+
+
+
+
+
+
+
+<!--End Skills-->
