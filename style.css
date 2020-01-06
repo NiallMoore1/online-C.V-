@@ -6,6 +6,7 @@
 body{
     margin:0;
     font-family: 'Poppins', sans-serif;
+    background-color: #d1e0e0;
 }
 
 *{
@@ -24,7 +25,7 @@ body{
 }
 
 .section-title{
-    background-color:#d5d5d5;
+    background-color:goldenrod;
     flex:0 0 100%;
     max-width:100%;
     margin-bottom:35px;
@@ -35,7 +36,7 @@ body{
     font-size:35px;
     text-transform:uppercase;
     font-weight:700;
-    color:#000;
+    color:#fff;
     margin:0 0 10px;
     position:relative;
     padding-bottom:0px;
@@ -47,7 +48,7 @@ body{
     position:absolute;
     height:2px;
     right:30%;
-    background-color:#febd01;
+    background-color:#171617;
     bottom:0px;
 }
 
@@ -69,7 +70,7 @@ header{
     position:absolute;
     left:0px;
     right:0px;
-    border-bottom:1px solid #423940;
+    /*border-bottom:1px solid red;*/
     padding:0px 15px;
     z-index:10;
 }
@@ -128,7 +129,10 @@ header .navbar ul li a ::before {
 
 header .navbar ul li a:hover::before{
   width:100%;
-  left:0;  
+  left:0;
+  
+
+   
 }
 
 header .navbar ul li a.active::before{
@@ -138,7 +142,7 @@ header .navbar ul li a.active::before{
 
 
 .home {
-    min-height:100vh;
+    min-height:80vh;
     background-image:url("images/hero/2.jpg");
     background-size:cover;
     background-position:center;
@@ -147,7 +151,7 @@ header .navbar ul li a.active::before{
 
 <!--start Home--> 
 .home .full-screen{
-min-height:100vh;
+min-height:80vh;
 }
 
 .home .home-content{
@@ -215,7 +219,7 @@ margin:0;
 
 .home .home-content .block .cv-btn a:hover{
     background-color:#fff;
-    color:#000;
+    color:#171617;
 }
 
 <!--End Home--> 
@@ -223,30 +227,32 @@ margin:0;
 
 .about-me{
     padding:100px 15px;
-    background-color:#fff;
+    background-color:green;
 
 }
 
 
 .text-uppercase{
     text-transform:uppercase!important;
+
 }
 
 .about-me .section-title p.small{
     display:block;
     font-size:14px;
-    color:#838383;
+    color:red;
     font-weight:400;
     letter-spacing:2px;
 }
 
 .about-me .about-content{
-    
+   
 }
 
 .about-me .about-content .img{
     flex:0 0 33.33%;
     max-width:33.33%;
+    
 }
 
 .about-me .about-content .img img{
@@ -264,38 +270,39 @@ margin:0;
 }
 
 .about-me .about-content .text h4{
-font-size:15px;
+font-size:35px;
 font-weight:600;
 margin:0 0 5px;
-color:#000;
-font-size:58px;
+color:#fff;
+
 }
 
 .about-me .about-content .text h6{
-    font-size:18px;
+    font-size:24px;
     font-weight:500;
     margin:0 0 15px;
-    color:#000;
+    color:#967fa1;
 }
 
-.about-me .about-content .text h6 span{
-    color:#febd01;
+.about-me .about-content .text h5 span{
+    color:green;
 }
 
 .about-me .about-content .text p{
-    font-size:15px;
+    font-size:20px;
     font-weight:400;
     line-height:24px;
-    color:#838383;
-    margin:0 0 20px;
+    color:#fff;
+    margin: 50px;
+   
 }
 
 .about-me .about-content .text .info{
-    background-color:#000;
+    background-color:goldenrod;
     display:flex;
     flex-wrap:wrap;
     justify-content:space-between;
-    font-size:14px;
+    font-size:34px;
 }
 
 .about-me .about-content .text .info .list{
@@ -304,8 +311,9 @@ font-size:58px;
     margin-top:10px;
     display:flex;
     flex-wrap:wrap;
-    border-bottom:1px solid #dee2e6;
+    border-bottom:1px solid #171617;
     padding-bottom:10px;
+    
 }
 
 .about-me .about-content .text .info .list label{
@@ -321,6 +329,7 @@ font-size:58px;
 
 .about-me .about-content .text .info .list span{
     color:#ffff00; 
+   
 }
 
 <!--Start Social links-->
@@ -458,16 +467,17 @@ ul li:hover:nth-child(5) a:before {
 <!--Start Services-->
 
 .services{
-    background-color:#f5f8fd;
-    padding:100px 0px 70px;
+    background-color:red;
+    padding:100px 0px 70px;    
 }
 
 .services .section-title h1:before{
     left:30%;
+    
 }
 
 .services .service-content{
-
+    
     flex:0 0 100%;
     max-width:100%;
     display:flex;
@@ -476,7 +486,8 @@ ul li:hover:nth-child(5) a:before {
 }
 
 .services .service-content .box{
-    background-color:#fff;
+    background-color:goldenrod;
+    color:#fff;
     padding:30px;
     flex:0 0 calc(33.33% - 20px); 
     max-width:calc(33.33% - 20px); 
@@ -489,8 +500,8 @@ ul li:hover:nth-child(5) a:before {
 
 .services .service-content .box::before{
 content:'';
-height:2px;
-background-color:#febd01;
+height:8px;
+background-color:#171617;
 position:absolute;
 bottom:0px;
 width:50px;
@@ -507,7 +518,7 @@ width:100%;
 .services .service-content .box .icon{
 height:60px;
 width:60px;
-background-color:#febd01;
+background-color:#000;
 margin:15px auto 20px;
 border-radius:50%;
 text-align:center;
@@ -542,7 +553,7 @@ text-align:center;
 
 .skills{
     padding:100px 15px;
-    background-color:#fff;
+    background-color:red;
 }
 
 .skills .skills-content{
@@ -565,12 +576,11 @@ text-align:center;
     width:100%;
     display:block;
 }
-
 .skills .skills-content .section-title p{
-    font-size:15px;
+    font-size:55px;
     font-weight:400;
     line-height:24px;
-    color:#838383;
+    color:red;
     margin:15px 0 0px; 
 }
 
@@ -581,21 +591,21 @@ text-align:center;
 }
 
 
-.skills .skills-content .skill-box h6{
-font-size:16px;
+.skills .skills-content .skill-box h2{
+font-size:26px;
 font-weight:500;
-color:#000;
+color:#967fa1;
 margin:0 0 8px;
 }
 
 .skills .skills-content .skill-box .skill-bar{
     height:5px;
-    background-color:#eee; 
+    background-color:#fff; 
     position:relative; 
 }
 
 .skills .skills-content .skill-box .skill-bar .skill-bar-in{
-    background-color:#febd01;
+    background-color:goldenrod;
     position:absolute;
     left:0;
     top:0;
@@ -611,13 +621,160 @@ margin:0 0 8px;
     top:-30px;
 }
 
-
-
-
-
-
-
-
-
-
 <!--End Skills-->
+
+<!--Start Portfolio-->
+/*
+.portfolio{
+    background-color:#f5f8fd;
+    padding:100px 15px;  
+}
+
+.portfolio .section-title h1:before{
+    left:30%;
+}
+
+  {
+    background-color:#d5d5d5;
+    flex:0 0 100%;
+    max-width:100%;
+}
+*/
+<!--End Portfolio-->
+
+<!--Start Get In Contact -->
+.section .message-text{
+    background-color:#000;
+}
+
+.message-text{
+    background-color:#000;
+    padding:40px 15px;
+}
+
+
+.message-text .text h2{
+font-size:25px;
+color:#fff;
+font-weight:700;
+margin:0;
+padding:0;
+line-height:25px;
+}
+
+.message-text .button {
+    flex:0 0 33.33%;
+    max-width:33.33%;
+    text-align:right;
+}
+
+.message-text .button a{
+    border-radius:4px;
+    color:#fff;
+    padding:10px;
+    margin:0;
+    text-decoration:none;
+    display:inline-block;
+    font-size:15px;
+    text-transform:uppercase;
+    font-weight:600;
+    transition:all .5s ease;
+    background-color:goldenrod;
+}
+.message-text .button a:hover{
+        background-color:#171617;
+        color:#967fa1;
+}
+<!--End  Get In Contact -->
+
+<!--start  Testimonials -->
+.test{
+    padding:100px 0px;
+    
+}
+
+.test .section-title h1 :before{
+    left:30%;
+}
+
+.test .test-content{
+  position:relative;
+  overflow:hidden; 
+  flex:0 0 100%; 
+  max-width:100%;
+}
+
+
+.test .test-content .test-slider .slide{
+    background-color:green;
+    margin-bottom:15px;
+    border:1px solid #eee;
+    padding:40px 20px;
+    border-radius:4px;
+    display:flex;
+    flex-wrap:nowrap;
+    float:left;
+    width:100%;
+}
+
+.test .test-content .test-slider .slide .img{
+    flex:0 0 128px;
+    max-width:128px;
+}
+
+.test .test-content .test-slider .slide p{
+    font-size:15px;
+    font-weight:400;
+    line-height:24px;
+    color:red;
+    margin:0 0 15px;
+}
+
+.test .test-content .test-slider{
+    float:left;
+    transition: margin 1s ease;
+}
+
+.test .test-content .test-slider .slide h6{
+    font-size:16px;
+    font-weight:600;
+    color:blueviolet;
+    margin:10px 0 10px;
+}
+
+.test .test-content .slide-controls{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.test .test-content .slide-controls div{
+    height:15px;
+    width:15px;
+    background-color:#fff;
+    border-radius:50%;
+    border:1px solid #febd01;
+    display:inline-block;
+    margin:10px 6px;
+    cursor:pointer;
+}
+
+.test .test-content .slide-controls div.active{
+    background-color:#febd01;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--End  Testimonials -->
